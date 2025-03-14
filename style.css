@@ -1,0 +1,163 @@
+/* Reset e fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f0f2f5, #d9e2ec);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* Seção Sobre (Hero) */
+  #sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  #sobre h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #sobre p {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  /* Seção Projetos */
+  #projetos {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #projetos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .projeto {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .projeto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .projeto h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #007BFF;
+  }
+  
+  .projeto p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .projeto a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .projeto a:hover {
+    color: #0056b3;
+  }
+  
+  /* Seção Contato */
+  #contato {
+    background: #fff;
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  #contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contato p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav ul li {
+      margin: 10px 0;
+    }
+    
+    #sobre, #contato {
+      margin: 20px;
+    }
+  }
+  
