@@ -1,5 +1,25 @@
-/* Reset e fonte */
-* {
+  /* Definição de variáveis para o tema claro */
+  :root {
+    --background: #f0f2f5;
+    --text-color: #333;
+    --header-bg: #fff;
+    --nav-link: #333;
+    --nav-link-hover: #007BFF;
+  }
+  
+  /* Tema escauro: ajusta as variáveis se o dispositivo estiver em modo escuro */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #121212;
+      --text-color: #e0e0e0;
+      --header-bg: #1e1e1e;
+      --nav-link: #e0e0e0;
+      --nav-link-hover: #1E90FF;
+    }
+  }
+  
+  /* Reset e fonte */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,14 +27,14 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #f0f2f5, #d9e2ec);
-    color: #333;
+    background: var(--background);
+    color: var(--text-color);
     line-height: 1.6;
   }
   
   /* Header */
   header {
-    background: #fff;
+    background: var(--header-bg);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding: 20px;
     position: sticky;
@@ -34,13 +54,13 @@
   
   nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: var(--nav-link);
     font-weight: 500;
     transition: color 0.3s ease;
   }
   
   nav ul li a:hover {
-    color: #007BFF;
+    color: var(--nav-link-hover);
   }
   
   /* Seção Sobre (Hero) */
@@ -50,7 +70,7 @@
     align-items: center;
     text-align: center;
     padding: 60px 20px;
-    background: #fff;
+    background: var(--header-bg);
     margin: 40px auto;
     max-width: 800px;
     border-radius: 8px;
@@ -64,7 +84,7 @@
   
   #sobre p {
     font-size: 1.2em;
-    color: #555;
+    color: var(--text-color);
   }
   
   /* Seção Projetos */
@@ -78,11 +98,11 @@
     text-align: center;
     margin-bottom: 40px;
     font-size: 2em;
-    color: #333;
+    color: var(--text-color);
   }
   
   .projeto {
-    background: #fff;
+    background: var(--header-bg);
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 8px;
@@ -97,28 +117,28 @@
   .projeto h3 {
     margin-bottom: 10px;
     font-size: 1.5em;
-    color: #007BFF;
+    color: var(--nav-link-hover);
   }
   
   .projeto p {
-    color: #666;
+    color: var(--text-color);
     margin-bottom: 15px;
   }
   
   .projeto a {
     text-decoration: none;
-    color: #007BFF;
+    color: var(--nav-link-hover);
     font-weight: 500;
     transition: color 0.3s ease;
   }
   
   .projeto a:hover {
-    color: #0056b3;
+    color: var(--nav-link);
   }
   
   /* Seção Contato */
   #contato {
-    background: #fff;
+    background: var(--header-bg);
     padding: 60px 20px;
     margin: 40px auto;
     max-width: 800px;
@@ -134,13 +154,13 @@
   
   #contato p {
     font-size: 1.1em;
-    color: #555;
+    color: var(--text-color);
   }
   
   /* Footer */
   footer {
-    background: #333;
-    color: #fff;
+    background: var(--header-bg);
+    color: var(--text-color);
     text-align: center;
     padding: 20px 0;
     font-size: 0.9em;
