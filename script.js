@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navbar = document.querySelector('.navbar');
+  
+  menuToggle.addEventListener('click', function() {
+    // Alterna a classe "active" para mostrar ou esconder o menu
+    navbar.classList.toggle('active');
+  });
+});
+
 const apiUrl = 'https://api.github.com/users/Lu1zH3nr1qu3DA/repos';
 
 fetch(apiUrl)
@@ -9,11 +19,11 @@ fetch(apiUrl)
     filteredRepos.forEach(repo => {
       // Cria um elemento para cada repositório
       const repoElement = document.createElement('div');
-      repoElement.classList.add('projeto');
+      repoElement.classList.add('project-card');
       repoElement.innerHTML = `
         <h3>${repo.name}</h3>
         <p>${repo.description ? repo.description : 'Sem descrição.'}</p>
-        <a href="${repo.html_url}" target="_blank">Ver no GitHub</a>
+        <a href="${repo.html_url}" target="_blank" class="btn">Ver no GitHub</a>
       `;
       container.appendChild(repoElement);
     });

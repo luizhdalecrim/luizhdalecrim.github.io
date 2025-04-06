@@ -4,42 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Luiz Henrique</title>
-  <!-- Importa a fonte Roboto do Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Fonte Montserrat para um visual moderno -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Header com logotipo e menu fixo -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div id="profile-container" class="container">
+      <h1>Luiz H. D. Alecrim</h1>
+      <!-- Botão para abrir/fechar o menu -->
+      <button class="menu-toggle" aria-label="Abrir Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- Seção Hero com fundo gradiente e chamada para ação -->
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Transformando Ideias em Código</h2>
+      <p>Desenvolvedor apaixonado por criar experiências digitais incríveis.</p>
+      <a href="#projetos" class="btn">Veja Meus Projetos</a>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
   <section id="sobre">
-    <h1>Olá, eu sou Luiz Henrique</h1>
-    <p>Seja em-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, meus projetos e como entrar em contato.</p>
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Sou um desenvolvedor full stack com experiência em diversas tecnologias. Adoro desafios e estou sempre em busca de aprender algo novo. Meu foco é transformar ideias em soluções digitais elegantes e funcionais.</p>
+    </div>
   </section>
 
-  <section id="projetos">
+<!-- Seção Projetos -->
+<section id="projetos">
+  <div class="container">
     <h2>Projetos</h2>
-      <div id="repos-container">
-        <!-- Os repositórios serão inseridos aqui via JavaScript -->
-      </div>
-    <!-- Adicionar mais projetos conforme necessário -->
-  </section>
+    <div id="repos-container" class="project-grid">
 
+    </div>
+  </div>
+</section>
+  
+  <!-- Seção Contato -->
   <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato comigo pelo email: <a href="mailto:luiz.hdalecrim@outlook.com">luiz.hdalecrim@outlook.com</a></p>
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Quer trabalhar junto ou trocar ideias?</p>
+    </div>
+    <div class="social-icons" style="text-align: center; font-size: 2rem;">
+      <a href="https://github.com/Lu1zH3nr1qu3DA" target="_blank" aria-label="GitHub" style="margin: 0 10px; color: #333;">
+      <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/luizhdalecrim" target="_blank" aria-label="LinkedIn" style="margin: 0 10px; color: #0077b5;">
+      <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+      </a>
+    </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Luiz Henrique. Todos os direitos reservados.</p>
+    <div class="container">
+      <p>&copy; 2025 Luiz Henrique. Todos os direitos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
