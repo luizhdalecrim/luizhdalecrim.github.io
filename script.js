@@ -28,16 +28,4 @@ fetch(apiUrl)
       container.appendChild(repoElement);
     });
   })
-  .then(profile => {
-    const profileContainer = document.getElementById('profile-container');
-    const profileElement = document.createElement('div');
-    profileElement.classList.add('project-card');
-    profileElement.innerHTML = `
-    <h2>${profile.name}</h2>
-    <img src="${profile.avatar_url}" alt="${profile.name}" class="avatar">
-    <p>${profile.location}</p>
-    <a href="${profile.html_url}" target="_blank" class="btn">Ver no GitHub
-    </a>
-    `;
-  })
   .catch(error => console.error('Erro ao buscar os repositórios:', error));
