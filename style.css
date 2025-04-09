@@ -23,6 +23,7 @@ header {
   background: rgba(255, 255, 255, 0.95);
   position: fixed;
   width: 100%;
+  height: auto;
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -71,13 +72,11 @@ header nav ul li a:hover {
 /* Seção Hero com fundo gradiente e centralização */
 #hero {
   height: 100vh;
-  background: linear-gradient(135deg, #007BFF, #00C6FF);
+  background: linear-gradient(135deg, #000000, #8b8b8b);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 20px;
-  margin-top: 70px; /* Compensa o header fixo */
 }
 
 .hero-content h2 {
