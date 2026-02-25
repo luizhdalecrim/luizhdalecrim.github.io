@@ -3,20 +3,23 @@ document.addEventListener('DOMContentLoaded', function () {
   const navbar = document.querySelector('.navbar');
   
   menuToggle.addEventListener('click', function() {
+
     // Alterna a classe "active" para mostrar ou esconder o menu
     navbar.classList.toggle('active');
   });
 });
 
-const apiUrl = 'https://api.github.com/users/Lu1zH3nr1qu3DA/repos';
+const apiUrl = 'https://api.github.com/users/luizhdalecrim/repos';
 
 fetch(apiUrl)
   .then(response => response.json())
   .then(repos => {
     const container = document.getElementById('repos-container');
+
     // Filtrar apenas repositórios públicos e que não sejam forks
     const filteredRepos = repos.filter(repo => !repo.fork);
     filteredRepos.forEach(repo => {
+      
       // Cria um elemento para cada repositório
       const repoElement = document.createElement('div');
       repoElement.classList.add('project-card');
