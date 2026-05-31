@@ -661,6 +661,14 @@
   footer a { color: var(--text-dim); text-decoration: none; }
   footer a:hover { color: var(--text-muted); }
 
+  /* ICONS */
+  .icon-repo-forked .icon-organization {
+    fill: var(--text-dim);
+  }
+  .icon-star-fill {
+    fill: var(--accent);
+  }
+
   /* ANIMATIONS */
   .fade-in {
     opacity: 0;

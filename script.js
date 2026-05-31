@@ -61,7 +61,7 @@ window.addEventListener('scroll', () => {
 
     link.style.color =
       link.getAttribute('href')
-      === `#${current}`
+        === `#${current}`
         ? 'var(--text)'
         : 'var(--text-muted)';
   });
@@ -170,7 +170,7 @@ function renderStacks(data) {
     data.stacks
       .map(
         stack =>
-          `<span class="t-val">"${stack}"</span>`
+          `<div>&nbsp;&nbsp;&nbsp;<span class="t-val">"${stack}"</span></div>`
       )
       .join(', ');
 
@@ -179,10 +179,7 @@ function renderStacks(data) {
     <span class="t-key">
       "stacks"
     </span>: [
-    <div>
-      &nbsp;&nbsp;&nbsp;
       ${stackVals}
-    </div>
     <div>
       &nbsp;
     ],</div>
@@ -354,131 +351,73 @@ function renderRepos(repos) {
 
 // ── Repo Card ───────────────────────────────────────────────────────────────
 
-function renderCard(
-  repo,
-  container
-) {
+function renderCard(repo, container) {
+  const langColor = LANG_COLORS[repo.language] || '#888';
+  const owner = repo._owner;
+  const isOrg = owner.type === 'Organization';
 
-  const langColor =
-    LANG_COLORS[
-      repo.language
-    ] || '#888';
+  const el = document.createElement('a');
+  el.classList.add('project-card', 'fade-in', 'visible');
+  el.href = repo.html_url;
+  el.target = '_blank';
+  el.rel = 'noopener noreferrer';
 
-  const owner =
-    repo.owner;
-
-  const isOrgShape =
-    owner.type
-    === 'Organization';
-
-  const el =
-    document.createElement('a');
-
-  el.classList.add(
-    'project-card',
-    'fade-in',
-    'visible'
-  );
-
-  el.href =
-    repo.url;
-
-  el.target =
-    '_blank';
-
-  el.rel =
-    'noopener noreferrer';
+  // SVG exibido quando o repo pertence a uma organização
+  const orgBadge = isOrg ? `
+    <span title="Organização" style="
+      display:inline-flex;
+      align-items:center;
+      color:var(--text-dim);
+      vertical-align:middle;
+      margin-left:4px;
+    ">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" class="icon-organization"><path d="M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 0 0 .25-.25V8.285a.25.25 0 0 0-.111-.208l-1.055-.703a.749.749 0 1 1 .832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0 1 14.25 16h-3.5a.766.766 0 0 1-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 0 1-.75-.75V14h-1v1.25a.75.75 0 0 1-.75.75Zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 .75.75v1.25h2.25a.25.25 0 0 0 .25-.25V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25ZM3.75 6h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 3.75A.75.75 0 0 1 3.75 3h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 3.75Zm4 3A.75.75 0 0 1 7.75 6h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 7 6.75ZM7.75 3h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5ZM3 9.75A.75.75 0 0 1 3.75 9h.5a.75.75 0 0 1 0 1.5h-.5A.75.75 0 0 1 3 9.75ZM7.75 9h.5a.75.75 0 0 1 0 1.5h-.5a.75.75 0 0 1 0-1.5Z"></path></svg>
+    </span>
+  ` : '';
 
   el.innerHTML = `
     <div class="project-top">
-
-      <img
-        src="${owner.avatar}&s=64"
-        alt="${owner.login}"
-        style="
-          width:36px;
-          height:36px;
-          border-radius:
-            ${isOrgShape ? '6px' : '50%'};
-          border:1px solid var(--border-hover);
-          object-fit:cover;
-        "
-      >
-
-      <span
-        class="project-arrow"
-      >
-        ↗
-      </span>
-
+      <div style="position:relative;width:36px;height:36px;flex-shrink:0;">
+        <img
+          src="${owner.avatar_url}&s=64"
+          alt="${owner.login}"
+          style="
+            width:36px;
+            height:36px;
+            border-radius:${isOrg ? '6px' : '50%'};
+            border:1px solid var(--border-hover);
+            object-fit:cover;
+            display:block;
+          "
+          onerror="this.style.display='none'"
+        >
+      </div>
+      <span class="project-arrow">↗</span>
     </div>
-
-    <div
-      class="project-name"
-    >
-      ${repo.name}
-
-      ${
-        repo.isFork
-          ? `
-            <span
-              style="
-                font-size:10px;
-                color:var(--text-dim);
-              "
-            >
-              fork
-            </span>
-          `
-          : ''
-      }
-
+    <div class="project-name">
+      ${repo.name}${orgBadge}
+      ${repo.fork ? `
+        <span style="font-size:10px;color:var(--text-dim);font-weight:400;vertical-align:middle;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor">
+            <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>
+          </svg>
+          fork de ${owner.login}
+        </span>` : ''}
     </div>
-
-    <p
-      class="project-desc"
-    >
-      ${
-        repo.description
-        || 'Sem descrição.'
-      }
-    </p>
-
-    <div
-      class="project-meta"
-    >
-
-      ${
-        repo.language
-          ? `
-            <span
-              class="project-lang"
-            >
-              <span
-                class="lang-dot"
-                style="
-                  background:${langColor}
-                "
-              ></span>
-
-              ${repo.language}
-            </span>
-          `
-          : ''
-      }
-
-      ${
-        repo.stars > 0
-          ? `
-            <span
-              class="project-stars"
-            >
-              ★ ${repo.stars}
-            </span>
-          `
-          : ''
-      }
-
+    <p class="project-desc">${repo.description || 'Sem descrição.'}</p>
+    <div class="project-meta">
+      ${repo.language ? `
+        <span class="project-lang">
+          <span class="lang-dot" style="background:${langColor}"></span>
+          ${repo.language}
+        </span>` : ''}
+      ${repo.stargazers_count > 0 ? `
+        <span class="project-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="12" height="12" fill="currentColor">
+            <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+          </svg>
+          ${repo.stargazers_count}
+        </span>` : ''}
     </div>
   `;
 
