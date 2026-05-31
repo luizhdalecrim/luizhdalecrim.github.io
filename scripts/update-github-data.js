@@ -48,9 +48,12 @@ async function resolveForkOwner(repo, headers) {
 
 async function main() {
 
-    const headers = {
-        Authorization: `Bearer ${process.env.GITHUB_TOKEN}`
-    };
+    const headers = {};
+
+    if (process.env.GITHUB_TOKEN) {
+        headers.Authorization =
+            `Bearer ${process.env.GITHUB_TOKEN}`;
+    }
 
     const userUrl =
         `https://api.github.com/users/${USERNAME}`;
