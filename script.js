@@ -175,16 +175,16 @@ function renderStacks(data) {
       .join(', ');
 
   tKeyStacks.innerHTML = `
-    &nbsp;&nbsp;
+    &nbsp;
     <span class="t-key">
       "stacks"
     </span>: [
     <div>
-      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;
       ${stackVals}
     </div>
     <div>
-      &nbsp;&nbsp;
+      &nbsp;
     ],</div>
   `;
 }
