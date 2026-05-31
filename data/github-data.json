@@ -1,1 +1,434 @@
-{}
+{
+  "updatedAt": "2026-05-31T18:00:05.048Z",
+  "user": {
+    "login": "luizhdalecrim",
+    "name": "Luiz H D Alecrim",
+    "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+    "bio": null,
+    "followers": 6,
+    "following": 18,
+    "publicRepos": 16,
+    "profileUrl": "https://github.com/luizhdalecrim"
+  },
+  "stats": {
+    "totalRepos": 19,
+    "totalStars": 7,
+    "totalStacks": 7
+  },
+  "stacks": [
+    "JavaScript",
+    "Lua",
+    "C",
+    "HTML",
+    "C#",
+    "C++",
+    "TSQL"
+  ],
+  "languageStats": [
+    {
+      "lang": "JavaScript",
+      "pct": 91,
+      "color": "#f1e05a"
+    },
+    {
+      "lang": "SCSS",
+      "pct": 4,
+      "color": "#888"
+    },
+    {
+      "lang": "HTML",
+      "pct": 2,
+      "color": "#e34c26"
+    },
+    {
+      "lang": "C#",
+      "pct": 2,
+      "color": "#178600"
+    }
+  ],
+  "repos": [
+    {
+      "id": 948626540,
+      "name": "luizhdalecrim.github.io",
+      "description": "Minha página web estática",
+      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-05-31T17:58:32Z",
+      "pushedAt": "2026-05-31T17:58:28Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 1222566258,
+      "name": "kickstart.nvim",
+      "description": "Minha configuração pessoal do nvim",
+      "url": "https://github.com/luizhdalecrim/kickstart.nvim",
+      "homepage": "",
+      "language": "Lua",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-05-31T02:39:25Z",
+      "pushedAt": "2026-05-23T02:40:47Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/67477499?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 1249829676,
+      "name": "gestao-academia",
+      "description": null,
+      "url": "https://github.com/luizhdalecrim/gestao-academia",
+      "homepage": null,
+      "language": "C",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-05-29T14:18:57Z",
+      "pushedAt": "2026-05-26T18:12:30Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 1249358426,
+      "name": "hitboxe-site",
+      "description": null,
+      "url": "https://github.com/gp7-neosys/hitboxe-site",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-05-29T13:47:01Z",
+      "pushedAt": "2026-05-29T13:55:23Z",
+      "isFork": false,
+      "owner": {
+        "login": "gp7-neosys",
+        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 892270563,
+      "name": "porteiro",
+      "description": "Um bot multifunções escrito em JavaScript usando node.js e discord.js v14",
+      "url": "https://github.com/luizhdalecrim/porteiro",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-07-25T14:58:28Z",
+      "pushedAt": "2025-07-25T14:58:24Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 845118467,
+      "name": "clicks-per-sec",
+      "description": "Um simples aplicativo que conta quantos cliques por segundo você consegue",
+      "url": "https://github.com/luizhdalecrim/clicks-per-sec",
+      "homepage": "",
+      "language": "C#",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-07-25T14:50:45Z",
+      "pushedAt": "2025-07-25T14:50:41Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 887396337,
+      "name": "WebHamburgueria",
+      "description": "Este é o Projeto Integrador da turma TI51 do Senac de Presidente Prudente. Nosso grupo tem dois integrantes: Luiz H D Alecrim e HenriqueSF1",
+      "url": "https://github.com/SenacPPR-TI51GrupoWebLuiz-Henrique/WebHamburgueria",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 1,
+      "topics": [
+        "computer-technician",
+        "course"
+      ],
+      "visibility": "public",
+      "updatedAt": "2025-06-09T18:18:20Z",
+      "pushedAt": "2025-06-09T18:18:16Z",
+      "isFork": false,
+      "owner": {
+        "login": "SenacPPR-TI51GrupoWebLuiz-Henrique",
+        "avatar": "https://avatars.githubusercontent.com/u/187051693?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 934788206,
+      "name": "codencheese-web",
+      "description": null,
+      "url": "https://github.com/luizhdalecrim/codencheese-web",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-05-09T18:39:11Z",
+      "pushedAt": "2025-03-15T11:03:21Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/187051693?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 949666281,
+      "name": "namer_app",
+      "description": "App Flutter que cria palavras em inglês",
+      "url": "https://github.com/luizhdalecrim/namer_app",
+      "homepage": "",
+      "language": "C++",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-05-09T18:03:48Z",
+      "pushedAt": "2025-03-17T19:20:53Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 976126026,
+      "name": "alura-projeto-artistico",
+      "description": "Projeto artístico desenvolvido no curso Alura",
+      "url": "https://github.com/luizhdalecrim/alura-projeto-artistico",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-05-01T14:47:08Z",
+      "pushedAt": "2025-05-01T14:43:52Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 976124770,
+      "name": "alura-projeto-aula7",
+      "description": "Projeto da aula 7 do curso Alura",
+      "url": "https://github.com/luizhdalecrim/alura-projeto-aula7",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-05-01T14:41:21Z",
+      "pushedAt": "2025-05-01T14:41:17Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 976123973,
+      "name": "alura-pong",
+      "description": "Projeto jogo Pong criado no curso Alura",
+      "url": "https://github.com/luizhdalecrim/alura-pong",
+      "homepage": null,
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-05-01T14:39:29Z",
+      "pushedAt": "2025-05-01T14:39:26Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 843100256,
+      "name": "senac-sp-ppr-ti51-uc13",
+      "description": "Exercícios de codificação, manutenção e documentação de aplicativos computacionais",
+      "url": "https://github.com/luizhdalecrim/senac-sp-ppr-ti51-uc13",
+      "homepage": "",
+      "language": "C#",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-04-18T21:54:31Z",
+      "pushedAt": "2025-04-18T21:53:20Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 956778689,
+      "name": "senac-sp-ppr-ti51-uc09-desenvolver-algoritmos",
+      "description": "Exercícios de algoritmo e lógica de programação",
+      "url": "https://github.com/luizhdalecrim/senac-sp-ppr-ti51-uc09-desenvolver-algoritmos",
+      "homepage": "",
+      "language": "C#",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2025-04-18T21:53:16Z",
+      "pushedAt": "2025-04-18T21:53:13Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 883425872,
+      "name": "alura-plus",
+      "description": null,
+      "url": "https://github.com/luizhdalecrim/alura-plus",
+      "homepage": null,
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2024-11-05T00:09:59Z",
+      "pushedAt": "2024-08-20T10:53:20Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/4975968?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 883425196,
+      "name": "alura-books",
+      "description": null,
+      "url": "https://github.com/luizhdalecrim/alura-books",
+      "homepage": "https://giullianacestari.github.io/alura-books/",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2024-11-05T00:07:31Z",
+      "pushedAt": "2024-10-14T15:04:11Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/113469086?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 851287574,
+      "name": "hamburgueria",
+      "description": null,
+      "url": "https://github.com/SenacPPR-TI51GrupoCodeCheese/hamburgueria",
+      "homepage": null,
+      "language": "TSQL",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2024-11-01T18:04:07Z",
+      "pushedAt": "2024-11-18T16:53:25Z",
+      "isFork": false,
+      "owner": {
+        "login": "SenacPPR-TI51GrupoCodeCheese",
+        "avatar": "https://avatars.githubusercontent.com/u/174404408?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 854892307,
+      "name": "minha-aventura",
+      "description": "🧭 Projeto desenvolvido para uma unidade da Alura Start. Acesse o link abaixo e divirta-se em busca da cidade perdida! ",
+      "url": "https://github.com/luizhdalecrim/minha-aventura",
+      "homepage": "https://femascheti.github.io/criando-sua-aventura/",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2024-09-10T00:11:43Z",
+      "pushedAt": "2024-08-28T18:55:32Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/43377020?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 842208706,
+      "name": "alura-filmes",
+      "description": null,
+      "url": "https://github.com/luizhdalecrim/alura-filmes",
+      "homepage": null,
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2024-08-19T22:28:38Z",
+      "pushedAt": "2024-08-19T22:28:35Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    }
+  ]
+}
