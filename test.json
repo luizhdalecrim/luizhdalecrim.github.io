@@ -1,0 +1,27 @@
+{
+    "nome": "Luiz H D Alecrim",
+    "local": "Presidente Prudente — SP",
+    "formacoes": [
+        {
+            "superior": [
+                "ADS — Unoeste"
+            ]
+        },
+        {
+            "tecnico": [
+                "Téc. em Informática — Senac"
+            ]
+        }
+    ],
+    "stacks": [
+        "Lua",
+        "CSS",
+        "C",
+        "HTML",
+        "JavaScript",
+        "C#",
+        "C++",
+        "TSQL"
+    ],
+    "status": "refletindo sobre... muitas coisas!"
+}
