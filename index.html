@@ -11,7 +11,6 @@
     href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
 </head>
 
 <body>
@@ -32,11 +31,9 @@
     <div>
       <div class="hero-label">Desenvolvedor fullstack</div>
       <h1 class="hero-name">Luiz H. D.<br><em>Alecrim</em></h1>
-      <p class="hero-role" style="text-align: justify;">
-        Estudante de Análise e Desenvolvimento de Sistemas na Unoeste e Técnico em Informática certificado pelo Senac de
-        Presidente Prudente — SP.
-        "Curiosidade": é o que me trouxe até aqui!
-      </p>
+      <p class="hero-role" style="text-align: justify;">Estudante de ADS, Técnico em Informática e atualmente Auxiliar
+        Docente de Informática na Etec Prof. Dr. Antônio Eufrásio de Toledo. Entre código, infraestrutura e servidores,
+        sigo aprendendo algo novo todos os dias.</p>
       <div class="hero-ctas">
         <a href="#projects" class="btn btn-primary">ver projetos</a>
         <a href="https://github.com/luizhdalecrim" target="_blank" class="btn btn-ghost">github ↗</a>
@@ -57,16 +54,21 @@
         <div>&nbsp;</div>
         <div>{</div>
         <div>&nbsp;&nbsp;<span class="t-key">"nome"</span>: <span class="t-val">"Luiz H D Alecrim"</span>,</div>
-        <div>&nbsp;&nbsp;<span class="t-key">"local"</span>: <span class="t-val">"Presidente Prudente — SP"</span>,
-        </div>
+        <div>&nbsp;&nbsp;<span class="t-key">"local"</span>: <span class="t-val">"Presidente Prudente — SP"</span>,</div>
         <div>&nbsp;&nbsp;<span class="t-key">"formacoes"</span>: [</div>
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"ADS — Unoeste"</span>,</div>
-
-        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"Téc. em Informática — Senac"</span>,</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;{</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"superior"</span>: [</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"ADS — Unoeste"</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;},</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;{</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"tecnico"</span>: [</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-val">"Téc. em Informática — Senac"</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;}</div>
         <div>&nbsp;&nbsp;],</div>
         <div id="t-key-stacks"><!-- Stacks aparecerão aqui--></div>
-        <div>&nbsp;&nbsp;<span class="t-key">"status"</span>: <span style="color:#c8f53e">"refletindo sobre... muitas
-            coisas!"</span></div>
+        <div>&nbsp;&nbsp;<span class="t-key">"status"</span>: <span style="color:#c8f53e">"em progresso..."</span></div>
         <div>}</div>
         <div>&nbsp;</div>
         <div><span class="t-prompt">~ $</span> <span class="cursor"></span></div>
@@ -122,42 +124,8 @@
     <div class="skills-layout">
       <div>
         <div class="skill-group-title">// linguagens & frameworks</div>
-        <div class="skill-list">
-          <div class="skill-item">
-            <span class="skill-name">JavaScript</span>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width:80%"></div>
-            </div>
-            <span class="skill-pct">80%</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">HTML & CSS</span>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width:75%"></div>
-            </div>
-            <span class="skill-pct">75%</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Node.js</span>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width:65%"></div>
-            </div>
-            <span class="skill-pct">65%</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">C#</span>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width:50%"></div>
-            </div>
-            <span class="skill-pct">50%</span>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Flutter / Dart</span>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width:35%"></div>
-            </div>
-            <span class="skill-pct">35%</span>
-          </div>
+        <div id="skill-list" class="skill-list">
+          <div style="color:var(--text-dim);font-size:12px;">carregando...</div>
         </div>
       </div>
 
@@ -180,14 +148,14 @@
             style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">TypeScript</span>
           <span class="tag"
             style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">Python</span>
-            <span class="tag"
+          <span class="tag"
             style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">Discord.js</span>
-            <span class="tag"
+          <span class="tag"
             style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">GitHub Pages</span>
-            <span class="tag"
+          <span class="tag"
             style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">Markdown</span>
-            <span class="tag"
-            style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">REST APIs</span>
+          <span class="tag" style="border-style: dashed; color: var(--accent); border-color: rgba(200,245,62,0.3);">REST
+            APIs</span>
         </div>
       </div>
     </div>
@@ -209,19 +177,37 @@
       </div>
 
       <div class="about-text fade-in">
+        <!-- PARÁGRAFO 1 — apresentação pessoal -->
         <p>
-          Olá! Sou <strong>Luiz</strong>, estudante de Análise e Desenvolvimento de Sistemas pelo Senac de Presidente
-          Prudente, no interior de São Paulo.
-        </p>
-        <p>
-          Comecei a programar explorando projetos práticos — de bots para Discord a aplicativos mobile com Flutter. Cada
-          projeto é uma oportunidade de aprender algo novo e resolver problemas reais.
-        </p>
-        <p>
-          Tenho especial interesse no <strong>desenvolvimento web</strong>, e estou sempre buscando expandir meu
-          repertório técnico. Gosto de código limpo, boas práticas e interfaces que fazem sentido para quem usa.
+          Olá! Sou <strong>Luiz</strong>, estudante de Análise e Desenvolvimento de Sistemas na
+          <strong>Unoeste</strong> e Técnico em Informática pelo <strong>Senac de Presidente Prudente — SP</strong>.
+          A curiosidade sempre foi o que me move: gosto de entender como as coisas funcionam por dentro antes de
+          construí-las.
         </p>
 
+        <!-- PARÁGRAFO 2 — trajetória / motivação -->
+        <p>
+          Comecei a programar explorando projetos práticos — de bots para Discord a aplicativos mobile com Flutter.
+          Cada projeto é uma oportunidade de aprender algo novo e resolver problemas reais. Acredito que bom código
+          é aquele que qualquer pessoa consegue entender amanhã.
+        </p>
+
+        <!-- PARÁGRAFO 3 — foco atual / interesses -->
+        <p>
+          Atualmente atuo como <strong>Auxiliar Docente de Informática</strong> na
+          <strong>Etec Prof. Dr. Antônio Eufrásio de Toledo (Colégio Agrícola)</strong>,
+          em um contrato iniciado em <strong>agosto de 2025</strong> e vigente até
+          <strong>agosto de 2026</strong>, com possibilidade de renovação até
+          <strong>agosto de 2027</strong>. Entre minhas responsabilidades estão a
+          manutenção dos computadores, a organização e integridade dos laboratórios,
+          incluindo periféricos e infraestrutura física, além do suporte ao servidor
+          da escola, monitoramento da rede e administração do portal cativo
+          (Wi-Fi institucional). Paralelamente, mantenho meu interesse em
+          <strong>desenvolvimento web fullstack</strong> e continuo expandindo meu
+          repertório técnico.
+        </p>
+
+        <!-- DETALHES — edite os valores à direita de cada linha -->
         <div class="about-detail-list">
           <div class="about-detail">
             <span class="about-detail-key">localização</span>
@@ -229,21 +215,42 @@
           </div>
           <div class="about-detail">
             <span class="about-detail-key">formação</span>
-            <span class="about-detail-val">Análise e Desenvolvimento de Sistemas — Senac PPR</span>
+            <span class="about-detail-val">ADS — Unoeste · Téc. Informática — Senac PPR</span>
+          </div>
+          <div class="about-detail">
+            <span class="about-detail-key">experiência</span>
+            <span class="about-detail-val">
+              Auxiliar Docente de Informática — Etec Prof. Dr. Antônio Eufrásio de Toledo
+              (Colégio Agrícola)</br>
+              <span class="about-detail-val" style="color: var(--accent);">
+                ● ago/2025 → ago/2026 · renovação prevista até ago/2027
+              </span>
+            </span>
+          </div>
+          <div class="about-detail">
+            <span class="about-detail-key">idiomas</span>
+            <!-- Exemplos: "Português (nativo) · Inglês (intermediário)" -->
+            <span class="about-detail-val">Português (nativo) · Inglês (básico/intermediário)</span>
           </div>
           <div class="about-detail">
             <span class="about-detail-key">github</span>
-            <span class="about-detail-val"><a href="https://github.com/luizhdalecrim"
-                target="_blank">github.com/luizhdalecrim</a></span>
+            <span class="about-detail-val">
+              <a href="https://github.com/luizhdalecrim" target="_blank">github.com/luizhdalecrim</a>
+            </span>
           </div>
           <div class="about-detail">
             <span class="about-detail-key">linkedin</span>
-            <span class="about-detail-val"><a href="https://www.linkedin.com/in/luizhdalecrim"
-                target="_blank">in/luizhdalecrim</a></span>
+            <span class="about-detail-val">
+              <a href="https://www.linkedin.com/in/luizhdalecrim" target="_blank">in/luizhdalecrim</a>
+            </span>
           </div>
           <div class="about-detail">
             <span class="about-detail-key">status</span>
-            <span class="about-detail-val" style="color: var(--accent);">● disponível para oportunidades</span>
+            <!-- Troque a cor e o texto conforme sua situação atual -->
+            <!-- <span class="about-detail-val" style="color: var(--accent);">● disponível para oportunidades</span> -->
+            <!-- Outras opções: -->
+            <span class="about-detail-val" style="color: var(--accent-3);">● empregado — aberto a propostas</span>
+            <!-- <span class="about-detail-val" style="color: var(--text-dim);">● indisponível no momento</span> -->
           </div>
         </div>
       </div>
@@ -260,15 +267,29 @@
 
     <div class="contact-inner">
       <div class="fade-in">
+        <!-- CHAMADA PRINCIPAL — personalize o tom -->
         <p class="contact-text">Tem um projeto<br>em mente? <em>Vamos<br>conversar.</em></p>
+
+        <!-- SUBTEXTO — descreva o que você busca -->
         <p class="contact-sub">
-          Estou aberto a oportunidades de estágio, projetos freelance e colaborações. Se quiser trocar uma ideia, é só
-          chamar.
+          Estou aberto a oportunidades de <strong style="color:var(--text)">estágio</strong>,
+          <strong style="color:var(--text)">projetos freelance</strong> e
+          <strong style="color:var(--text)">colaborações</strong>.
+          <!-- Adicione e-mail se quiser contato direto: -->
+          <!-- Prefere e-mail? <a href="mailto:seuemail@exemplo.com" style="color:var(--accent-2)">seuemail@exemplo.com</a> -->
+          Se quiser trocar uma ideia, é só chamar.
         </p>
-        <a href="https://www.linkedin.com/in/luizhdalecrim" target="_blank" class="btn btn-primary">entrar em contato
-          ↗</a>
+
+        <!-- BOTÃO PRINCIPAL — aponte para o canal preferido -->
+        <a href="https://www.linkedin.com/in/luizhdalecrim" target="_blank" class="btn btn-primary">
+          entrar em contato ↗
+        </a>
+        <!-- Alternativa via e-mail:
+        <a href="mailto:seuemail@exemplo.com" class="btn btn-primary">mandar um e-mail ↗</a>
+        -->
       </div>
 
+      <!-- LINKS SOCIAIS — adicione, remova ou reordene à vontade -->
       <div class="social-links fade-in">
         <a class="social-link" href="https://github.com/luizhdalecrim" target="_blank">
           <span>github.com/luizhdalecrim</span>
@@ -278,8 +299,12 @@
           <span>linkedin.com/in/luizhdalecrim</span>
           <span class="social-link-icon">↗</span>
         </a>
-        <a class="social-link" href="https://luizhdalecrim.github.io" target="_blank">
-          <span>luizhdalecrim.github.io</span>
+        <a class="social-link" href="https://discord.com/users/649055664659759105" target="_blank">
+          <span>Discord</span>
+          <span class="social-link-icon">↗</span>
+        </a>
+        <a class="social-link" href="mailto:seuemail@exemplo.com">
+          <span>luizhdalecrim@outlook.com</span>
           <span class="social-link-icon">↗</span>
         </a>
       </div>
@@ -294,6 +319,9 @@
         style="color:var(--accent);font-size: 12pt;">♥</span>, claro!)</span>
     <a href="https://github.com/luizhdalecrim/luizhdalecrim.github.io" target="_blank">código fonte ↗</a>
   </footer>
+
+  <script src="./script.js"></script>
+
 </body>
 
 </html>
