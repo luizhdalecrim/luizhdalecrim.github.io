@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T18:00:05.048Z",
+  "updatedAt": "2026-06-01T01:47:51.299Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -16,10 +16,10 @@
     "totalStacks": 7
   },
   "stacks": [
+    "HTML",
+    "C",
     "JavaScript",
     "Lua",
-    "C",
-    "HTML",
     "C#",
     "C++",
     "TSQL"
@@ -48,6 +48,46 @@
   ],
   "repos": [
     {
+      "id": 1249358426,
+      "name": "hitboxe-site",
+      "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/gp7-neosys/hitboxe-site",
+      "homepage": "",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-01T01:45:52Z",
+      "pushedAt": "2026-05-29T13:55:23Z",
+      "isFork": false,
+      "owner": {
+        "login": "gp7-neosys",
+        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 1249829676,
+      "name": "gestao-academia",
+      "description": "Projeto individual para a disciplina de PC do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/luizhdalecrim/gestao-academia",
+      "homepage": "",
+      "language": "C",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-01T01:43:59Z",
+      "pushedAt": "2026-05-26T18:12:30Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
       "id": 948626540,
       "name": "luizhdalecrim.github.io",
       "description": "Minha página web estática",
@@ -58,8 +98,8 @@
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-05-31T17:58:32Z",
-      "pushedAt": "2026-05-31T17:58:28Z",
+      "updatedAt": "2026-05-31T20:08:55Z",
+      "pushedAt": "2026-05-31T21:08:21Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
@@ -84,46 +124,6 @@
       "owner": {
         "login": "luizhdalecrim",
         "avatar": "https://avatars.githubusercontent.com/u/67477499?v=4",
-        "type": "Organization"
-      }
-    },
-    {
-      "id": 1249829676,
-      "name": "gestao-academia",
-      "description": null,
-      "url": "https://github.com/luizhdalecrim/gestao-academia",
-      "homepage": null,
-      "language": "C",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-05-29T14:18:57Z",
-      "pushedAt": "2026-05-26T18:12:30Z",
-      "isFork": false,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
-      }
-    },
-    {
-      "id": 1249358426,
-      "name": "hitboxe-site",
-      "description": null,
-      "url": "https://github.com/gp7-neosys/hitboxe-site",
-      "homepage": null,
-      "language": "HTML",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-05-29T13:47:01Z",
-      "pushedAt": "2026-05-29T13:55:23Z",
-      "isFork": false,
-      "owner": {
-        "login": "gp7-neosys",
-        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
       }
     },
