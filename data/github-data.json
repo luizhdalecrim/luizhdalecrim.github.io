@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T08:10:21.193Z",
+  "updatedAt": "2026-06-03T08:30:56.759Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -7,11 +7,11 @@
     "bio": null,
     "followers": 6,
     "following": 18,
-    "publicRepos": 16,
+    "publicRepos": 17,
     "profileUrl": "https://github.com/luizhdalecrim"
   },
   "stats": {
-    "totalRepos": 19,
+    "totalRepos": 20,
     "totalStars": 7,
     "totalStacks": 7
   },
@@ -27,7 +27,7 @@
   "languageStats": [
     {
       "lang": "JavaScript",
-      "pct": 91,
+      "pct": 90,
       "color": "#f1e05a"
     },
     {
@@ -44,9 +44,34 @@
       "lang": "C#",
       "pct": 2,
       "color": "#178600"
+    },
+    {
+      "lang": "CSS",
+      "pct": 1,
+      "color": "#563d7c"
     }
   ],
   "repos": [
+    {
+      "id": 1257362008,
+      "name": "hitboxe-site-luiz",
+      "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/luizhdalecrim/hitboxe-site-luiz",
+      "homepage": "",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-02T15:54:21Z",
+      "pushedAt": "2026-06-02T18:00:24Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
+        "type": "Organization"
+      }
+    },
     {
       "id": 948626540,
       "name": "luizhdalecrim.github.io",
@@ -58,8 +83,8 @@
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-01T08:47:25Z",
-      "pushedAt": "2026-06-01T08:47:21Z",
+      "updatedAt": "2026-06-02T08:10:26Z",
+      "pushedAt": "2026-06-02T08:10:22Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
@@ -75,7 +100,7 @@
       "homepage": "",
       "language": "HTML",
       "stars": 1,
-      "forks": 0,
+      "forks": 1,
       "topics": [],
       "visibility": "public",
       "updatedAt": "2026-06-01T01:45:52Z",
@@ -119,7 +144,7 @@
       "topics": [],
       "visibility": "public",
       "updatedAt": "2026-05-31T02:39:25Z",
-      "pushedAt": "2026-06-01T01:52:34Z",
+      "pushedAt": "2026-06-02T15:48:59Z",
       "isFork": true,
       "owner": {
         "login": "luizhdalecrim",
