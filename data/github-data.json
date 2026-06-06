@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T07:48:58.130Z",
+  "updatedAt": "2026-06-06T06:40:53.620Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -16,9 +16,9 @@
     "totalStacks": 7
   },
   "stacks": [
+    "C",
     "JavaScript",
     "HTML",
-    "C",
     "Lua",
     "C#",
     "C++",
@@ -53,6 +53,26 @@
   ],
   "repos": [
     {
+      "id": 1249829676,
+      "name": "gestao-academia",
+      "description": "Projeto individual para a disciplina de PC do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/luizhdalecrim/gestao-academia",
+      "homepage": "",
+      "language": "C",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-05T17:24:56Z",
+      "pushedAt": "2026-06-05T17:24:52Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
       "id": 948626540,
       "name": "luizhdalecrim.github.io",
       "description": "Minha página web estática",
@@ -63,8 +83,8 @@
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-04T08:02:42Z",
-      "pushedAt": "2026-06-04T08:02:38Z",
+      "updatedAt": "2026-06-05T07:49:02Z",
+      "pushedAt": "2026-06-05T07:48:59Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
@@ -84,7 +104,7 @@
       "topics": [],
       "visibility": "public",
       "updatedAt": "2026-06-02T15:54:21Z",
-      "pushedAt": "2026-06-02T18:00:24Z",
+      "pushedAt": "2026-06-05T16:54:49Z",
       "isFork": true,
       "owner": {
         "login": "luizhdalecrim",
@@ -110,26 +130,6 @@
         "login": "gp7-neosys",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
-      }
-    },
-    {
-      "id": 1249829676,
-      "name": "gestao-academia",
-      "description": "Projeto individual para a disciplina de PC do curso de ADS, 1º Termo da Unoeste 2026",
-      "url": "https://github.com/luizhdalecrim/gestao-academia",
-      "homepage": "",
-      "language": "C",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-06-01T01:43:59Z",
-      "pushedAt": "2026-06-01T11:51:45Z",
-      "isFork": false,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
       }
     },
     {
