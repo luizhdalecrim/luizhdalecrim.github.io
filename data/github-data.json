@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T06:40:53.620Z",
+  "updatedAt": "2026-06-07T07:15:10.114Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -16,10 +16,10 @@
     "totalStacks": 7
   },
   "stacks": [
-    "C",
-    "JavaScript",
-    "HTML",
     "Lua",
+    "JavaScript",
+    "C",
+    "HTML",
     "C#",
     "C++",
     "TSQL"
@@ -53,23 +53,23 @@
   ],
   "repos": [
     {
-      "id": 1249829676,
-      "name": "gestao-academia",
-      "description": "Projeto individual para a disciplina de PC do curso de ADS, 1º Termo da Unoeste 2026",
-      "url": "https://github.com/luizhdalecrim/gestao-academia",
+      "id": 1222566258,
+      "name": "kickstart.nvim",
+      "description": "Minha configuração pessoal do nvim",
+      "url": "https://github.com/luizhdalecrim/kickstart.nvim",
       "homepage": "",
-      "language": "C",
-      "stars": 1,
+      "language": "Lua",
+      "stars": 0,
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-05T17:24:56Z",
-      "pushedAt": "2026-06-05T17:24:52Z",
-      "isFork": false,
+      "updatedAt": "2026-06-07T03:49:03Z",
+      "pushedAt": "2026-06-07T03:48:55Z",
+      "isFork": true,
       "owner": {
         "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
+        "avatar": "https://avatars.githubusercontent.com/u/67477499?v=4",
+        "type": "Organization"
       }
     },
     {
@@ -83,8 +83,28 @@
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-05T07:49:02Z",
-      "pushedAt": "2026-06-05T07:48:59Z",
+      "updatedAt": "2026-06-06T06:40:57Z",
+      "pushedAt": "2026-06-06T06:40:54Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
+      "id": 1249829676,
+      "name": "gestao-academia",
+      "description": "Projeto individual para a disciplina de PC do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/luizhdalecrim/gestao-academia",
+      "homepage": "",
+      "language": "C",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-05T17:24:56Z",
+      "pushedAt": "2026-06-05T17:24:52Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
@@ -129,26 +149,6 @@
       "owner": {
         "login": "gp7-neosys",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
-        "type": "Organization"
-      }
-    },
-    {
-      "id": 1222566258,
-      "name": "kickstart.nvim",
-      "description": "Minha configuração pessoal do nvim",
-      "url": "https://github.com/luizhdalecrim/kickstart.nvim",
-      "homepage": "",
-      "language": "Lua",
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-05-31T02:39:25Z",
-      "pushedAt": "2026-06-03T14:51:38Z",
-      "isFork": true,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/67477499?v=4",
         "type": "Organization"
       }
     },
