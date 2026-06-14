@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T07:08:13.213Z",
+  "updatedAt": "2026-06-14T07:58:33.578Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -27,7 +27,7 @@
   "languageStats": [
     {
       "lang": "JavaScript",
-      "pct": 90,
+      "pct": 89,
       "color": "#f1e05a"
     },
     {
@@ -53,6 +53,46 @@
   ],
   "repos": [
     {
+      "id": 1257362008,
+      "name": "hitboxe-site-luiz",
+      "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
+      "url": "https://github.com/luizhdalecrim/hitboxe-site-luiz",
+      "homepage": "",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-14T02:42:58Z",
+      "pushedAt": "2026-06-14T02:43:17Z",
+      "isFork": true,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
+        "type": "Organization"
+      }
+    },
+    {
+      "id": 948626540,
+      "name": "luizhdalecrim.github.io",
+      "description": "Minha página web estática",
+      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-13T07:08:17Z",
+      "pushedAt": "2026-06-13T07:08:14Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
       "id": 1249358426,
       "name": "hitboxe-site",
       "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
@@ -70,26 +110,6 @@
         "login": "gp7-neosys",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
-      }
-    },
-    {
-      "id": 948626540,
-      "name": "luizhdalecrim.github.io",
-      "description": "Minha página web estática",
-      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
-      "homepage": "",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-06-12T08:03:55Z",
-      "pushedAt": "2026-06-12T08:03:49Z",
-      "isFork": false,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
       }
     },
     {
@@ -130,26 +150,6 @@
         "login": "luizhdalecrim",
         "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
         "type": "User"
-      }
-    },
-    {
-      "id": 1257362008,
-      "name": "hitboxe-site-luiz",
-      "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
-      "url": "https://github.com/luizhdalecrim/hitboxe-site-luiz",
-      "homepage": "",
-      "language": null,
-      "stars": 0,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-06-02T15:54:21Z",
-      "pushedAt": "2026-06-08T13:49:05Z",
-      "isFork": true,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
-        "type": "Organization"
       }
     },
     {
