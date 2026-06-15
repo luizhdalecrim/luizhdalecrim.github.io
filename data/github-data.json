@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T07:58:33.578Z",
+  "updatedAt": "2026-06-15T09:39:23.137Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -53,21 +53,21 @@
   ],
   "repos": [
     {
-      "id": 1257362008,
-      "name": "hitboxe-site-luiz",
+      "id": 1249358426,
+      "name": "hitboxe-site",
       "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
-      "url": "https://github.com/luizhdalecrim/hitboxe-site-luiz",
+      "url": "https://github.com/gp7-neosys/hitboxe-site",
       "homepage": "",
       "language": "HTML",
-      "stars": 0,
-      "forks": 0,
+      "stars": 1,
+      "forks": 1,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-14T02:42:58Z",
-      "pushedAt": "2026-06-14T02:43:17Z",
-      "isFork": true,
+      "updatedAt": "2026-06-15T01:20:27Z",
+      "pushedAt": "2026-06-15T01:44:59Z",
+      "isFork": false,
       "owner": {
-        "login": "luizhdalecrim",
+        "login": "gp7-neosys",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
       }
@@ -83,8 +83,8 @@
       "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-13T07:08:17Z",
-      "pushedAt": "2026-06-13T07:08:14Z",
+      "updatedAt": "2026-06-14T07:58:37Z",
+      "pushedAt": "2026-06-14T07:58:34Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
@@ -93,21 +93,21 @@
       }
     },
     {
-      "id": 1249358426,
-      "name": "hitboxe-site",
+      "id": 1257362008,
+      "name": "hitboxe-site-luiz",
       "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
-      "url": "https://github.com/gp7-neosys/hitboxe-site",
+      "url": "https://github.com/luizhdalecrim/hitboxe-site-luiz",
       "homepage": "",
       "language": "HTML",
-      "stars": 1,
-      "forks": 1,
+      "stars": 0,
+      "forks": 0,
       "topics": [],
       "visibility": "public",
-      "updatedAt": "2026-06-12T13:59:39Z",
-      "pushedAt": "2026-06-12T14:11:49Z",
-      "isFork": false,
+      "updatedAt": "2026-06-14T02:42:58Z",
+      "pushedAt": "2026-06-14T02:43:17Z",
+      "isFork": true,
       "owner": {
-        "login": "gp7-neosys",
+        "login": "luizhdalecrim",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
       }
