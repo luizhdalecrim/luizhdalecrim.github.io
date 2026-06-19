@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T08:21:30.202Z",
+  "updatedAt": "2026-06-19T08:42:18.170Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -16,8 +16,8 @@
     "totalStacks": 7
   },
   "stacks": [
-    "HTML",
     "JavaScript",
+    "HTML",
     "Lua",
     "C",
     "C#",
@@ -53,6 +53,26 @@
   ],
   "repos": [
     {
+      "id": 948626540,
+      "name": "luizhdalecrim.github.io",
+      "description": "Minha página web estática",
+      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-06-18T08:21:35Z",
+      "pushedAt": "2026-06-18T08:21:31Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
       "id": 1249358426,
       "name": "hitboxe-site",
       "description": "Projeto do grupo 7 para a disciplina de PCW do curso de ADS, 1º Termo da Unoeste 2026",
@@ -64,32 +84,12 @@
       "topics": [],
       "visibility": "public",
       "updatedAt": "2026-06-18T03:48:34Z",
-      "pushedAt": "2026-06-18T03:48:32Z",
+      "pushedAt": "2026-06-18T11:23:18Z",
       "isFork": false,
       "owner": {
         "login": "gp7-neosys",
         "avatar": "https://avatars.githubusercontent.com/u/263957666?v=4",
         "type": "Organization"
-      }
-    },
-    {
-      "id": 948626540,
-      "name": "luizhdalecrim.github.io",
-      "description": "Minha página web estática",
-      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
-      "homepage": "",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-06-17T08:38:51Z",
-      "pushedAt": "2026-06-17T08:38:47Z",
-      "isFork": false,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
       }
     },
     {
