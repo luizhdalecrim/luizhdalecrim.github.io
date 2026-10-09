@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T10:43:14.103Z",
+  "updatedAt": "2026-10-09T10:42:04.776Z",
   "user": {
     "login": "luizhdalecrim",
     "name": "Luiz H D Alecrim",
@@ -16,8 +16,8 @@
     "totalStacks": 7
   },
   "stacks": [
-    "C",
     "JavaScript",
+    "C",
     "HTML",
     "Lua",
     "C#",
@@ -53,6 +53,26 @@
   ],
   "repos": [
     {
+      "id": 948626540,
+      "name": "luizhdalecrim.github.io",
+      "description": "Minha página web estática",
+      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
+      "homepage": "",
+      "language": "JavaScript",
+      "stars": 1,
+      "forks": 0,
+      "topics": [],
+      "visibility": "public",
+      "updatedAt": "2026-10-08T10:43:18Z",
+      "pushedAt": "2026-10-08T10:43:14Z",
+      "isFork": false,
+      "owner": {
+        "login": "luizhdalecrim",
+        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
+        "type": "User"
+      }
+    },
+    {
       "id": 1346760129,
       "name": "unoeste",
       "description": null,
@@ -65,26 +85,6 @@
       "visibility": "public",
       "updatedAt": "2026-10-08T00:36:58Z",
       "pushedAt": "2026-10-08T00:36:54Z",
-      "isFork": false,
-      "owner": {
-        "login": "luizhdalecrim",
-        "avatar": "https://avatars.githubusercontent.com/u/163210265?v=4",
-        "type": "User"
-      }
-    },
-    {
-      "id": 948626540,
-      "name": "luizhdalecrim.github.io",
-      "description": "Minha página web estática",
-      "url": "https://github.com/luizhdalecrim/luizhdalecrim.github.io",
-      "homepage": "",
-      "language": "JavaScript",
-      "stars": 1,
-      "forks": 0,
-      "topics": [],
-      "visibility": "public",
-      "updatedAt": "2026-10-07T10:23:13Z",
-      "pushedAt": "2026-10-07T10:23:09Z",
       "isFork": false,
       "owner": {
         "login": "luizhdalecrim",
